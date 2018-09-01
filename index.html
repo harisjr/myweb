@@ -1,21 +1,30 @@
 <!doctype html>
-<html>
+<html class="no-js" lang="">
+
 <head>
-<title>TIC-TAC-TOE</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>TIC-TAC-TOE</title>
 <link rel="shortcut icon" href="cookie.png" />
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="kng.css">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="kng.css">
     <script src="myscript.js"> </script>
-
 </head>
-
 <center>
     <h1 style="margin-left:-112px;"><b><u> TIC-TAC-TOE </u> </b> </h1>
     <br/>
     <br/>
 <body>
-    <table border=0>
+ <div class="lom">
+  <table border=0>
         <td>
             <table border=1>
                 <tr>
@@ -46,12 +55,25 @@
     <br/>
     <input type=reset value="Play Again" onClick="playAgain();">
     &nbsp;&nbsp;&nbsp;
-    <input type=button value="Game Help" onClick="help();">
+    <input type=button value="Game Help" onClick="help();"></div>
 	<div class="foot">
 	<h4>A haris jamal production &copy Tic-Tac-Toe 2017</h4>
-	<p>This is a multiplayer game known as TIC-TAC-TOE which has been written in pure javascript and HTML/CSS. this is a part of project which i have accomplished while learning Ajax, jquery and JS from Internshala vtc.</p>
+	<p>This is a multiplayer game known as TIC-TAC-TOE which has been written in pure javascript and HTML/CSS. this is a part of project which i have accomplished while learning Ajax, jquery and JavaScript from Internshala vtc.</p>
 	</div>
 	<div class="logo"><img src="cookie.png" width: "200px" height="200px"></div>
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
-</center>
+
 </html>
+
